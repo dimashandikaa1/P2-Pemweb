@@ -165,3 +165,36 @@ main p {
     background-color: #bbb8b8;
     width: 35%;
 }
+
+/* Bagian Project */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-left: 4px solid #2c3e50;
+    padding: 16px 20px;
+    border-radius: 4px;
+}
+
+.project-card h3 {
+    font-size: 17px;
+    margin-bottom: 6px;
+    color: #2c3e50;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.project-card .tech {
+    font-size: 13px;
+    color: #888;
+    margin-top: 8px;
+}
